@@ -12,30 +12,21 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from datetime import timedelta
 from pathlib import Path
+from datetime import timedelta
 import os
-import os
-import environ # django-environ kütüphanesi
-from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# 1. Env nesnesini doğrudan 'environ' üzerinden oluştur (os.environ değil!)
-env = environ.Env()
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
-# 2. .env dosyasının yolunu belirt ve oku
-# BASE_DIR / '.env' kullanımı daha moderndir
-environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = "django-insecure-_anr8hw_#wm@3y%412ymwz*n#hw1+hl_whq4&(x*ekfj^$-wr*"
 
-# 3. Artık değişkenleri güvenle çekebilirsin
-SECRET_KEY = env('DJANGO_SECRET_KEY')
-DEBUG = env.bool('DEBUG', default=False)
-
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ['batuhanyilmaz1.pythonanywhere.com']
-
 
 # Application definition
 
