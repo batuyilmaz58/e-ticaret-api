@@ -18,3 +18,4 @@ INFO 2026-02-23 19:33:06,520 autoreload Watching for file changes with StatReloa
 INFO 2026-02-23 19:36:42,824 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\users\views.py changed, reloading.
 INFO 2026-02-23 19:36:43,436 autoreload Watching for file changes with StatReloader
 INFO 2026-02-23 19:37:20,532 views User info@batuhanyilmaz.com logged in successfully. (id: 1)
+INFO 2026-02-23 19:44:38,715 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
