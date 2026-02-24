@@ -69,7 +69,7 @@ class OrderListView(generics.ListAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
-        return Order.objects.filter(user = self.request.user).order_by('-created')
+        return Order.objects.filter(user = self.request.user).order_by('-created_at')
 
 @extend_schema(
     summary="Sipariş Detayı",
@@ -99,7 +99,7 @@ class AdminOrderListView(generics.ListAPIView):
     permission_classes = [permissions.IsAdminUser]
 
     def get_queryset(self):
-        queryset = Order.objects.order_by('-created')
+        queryset = Order.objects.order_by('-created_at')
         user_id = self.request.query_params.get('userId', None)
         if user_id:
             queryset = queryset.filter(user__id=user_id)

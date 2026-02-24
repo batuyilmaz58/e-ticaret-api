@@ -134,18 +134,8 @@ Uygulama `http://127.0.0.1:8000/` adresinde çalışacaktır.
 ### Swagger UI
 API dokümantasyonuna erişmek için:
 ```
-http://127.0.0.1:8000/api/schema/swagger-ui/
+https://batuhanyilmaz1.pythonanywhere.com/api/docs
 ```
-
-### ReDoc
-Alternatif dokümantasyon:
-```
-http://127.0.0.1:8000/api/schema/redoc/
-```
-
-### OpenAPI Schema
-```
-http://127.0.0.1:8000/api/schema/
 ```
 
 ## 📁 Proje Yapısı
@@ -509,6 +499,152 @@ batuhanyilmaz0011@gmail.com
 ## 📄 Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır.
+
+---
+
+## 🎨 Frontend Entegrasyonu
+
+Bu proje React tabanlı bir frontend ile entegre edilmiştir. Frontend entegrasyon detayları için [`FRONTEND/frontend_for_website/README_INTEGRATION.md`](./FRONTEND/frontend_for_website/README_INTEGRATION.md) dosyasına bakabilirsiniz.
+
+### Frontend Özellikleri
+
+#### ✅ Tamamlanan Entegrasyonlar
+
+**API Service Katmanı:**
+- Tüm backend endpoint'leri için service katmanı
+- Otomatik JWT token yenileme
+- Request/Response interceptors
+- Gelişmiş hata yönetimi
+
+**Authentication Sistemi:**
+- JWT tabanlı kimlik doğrulama
+- Persistent authentication (localStorage)
+- Auto-refresh token mekanizması
+- Admin/User rol yönetimi
+
+**Sepet Yönetimi:**
+- Real-time sepet güncellemeleri
+- Ürün miktar yönetimi
+- Toplam fiyat hesaplama
+- Kupon kodu desteği
+
+**Sayfalar:**
+- ✅ Login/Register sayfaları (Backend entegre)
+- ✅ Ana sayfa (Ürün vitrin)
+- ✅ Ürün listesi (Filtreleme ve sıralama)
+- ✅ Ürün detay sayfası
+- ⏳ Sepet sayfası (Backend ready)
+- ⏳ Checkout sayfası (Backend ready)
+- ⏳ Kullanıcı paneli (Backend ready)
+
+### Backend - Frontend API Uyumu
+
+#### Düzeltilen Endpoint'ler:
+```
+❌ /auth/register  →  ✅ /api/users/signup
+❌ /auth/login     →  ✅ /api/users/login
+❌ /cart/*         →  ✅ /api/cards/*
+```
+
+#### Token Response Formatı:
+```json
+{
+  "message": "Login successfull",
+  "token": {
+    "access": "eyJ0eXAiOiJKV1QiLCJhbGc...",
+    "refresh": "eyJ0eXAiOiJKV1QiLCJhbGc..."
+  },
+  "user": {
+    "id": 1,
+    "email": "user@example.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "phone": "05551234567",
+    "role": "user"
+  }
+}
+```
+
+### Frontend Kurulum
+
+```bash
+# Frontend dizinine git
+cd FRONTEND/frontend_for_website
+
+# Bağımlılıkları yükle
+npm install
+
+# Development server'ı başlat
+npm start
+```
+
+### Environment Variables (.env)
+```env
+REACT_APP_BACKEND_URL=http://localhost:8000
+```
+
+### Frontend Kullanım Örnekleri
+
+#### Authentication:
+```javascript
+import { useAuth } from '@/context/AuthContext';
+
+const { login, register, user } = useAuth();
+
+// Kullanıcı kaydı
+await register({
+  first_name: 'John',
+  last_name: 'Doe',
+  email: 'john@example.com',
+  phone: '05551234567',
+  password: 'SecurePass123',
+  password2: 'SecurePass123'
+});
+
+// Giriş
+await login('john@example.com', 'SecurePass123');
+```
+
+#### Sepet İşlemleri:
+```javascript
+import { useCart } from '@/context/CartContext';
+
+const { addToCart, cart, cartCount } = useCart();
+
+// Sepete ürün ekle
+await addToCart(productId, 2);
+
+// Toplam ürün sayısı
+console.log(cartCount); // 2
+```
+
+#### API Servisleri:
+```javascript
+import { productService, categoryService } from '@/lib/api';
+
+// Ürün listesi (filtreleme ile)
+const products = await productService.getAll({
+  category: 1,
+  sort_by: 'price_asc',
+  min_price: 100,
+  max_price: 500,
+  in_stock: true
+});
+
+// Kategoriler
+const categories = await categoryService.getAll();
+```
+
+### Backend İyileştirme Gereksinimleri
+
+Frontend'in tam performans gösterebilmesi için backend'de bazı değişiklikler gereklidir. Detaylı liste için [`FRONTEND/frontend_for_website/BACKEND_CHANGES_REQUIRED.md`](./FRONTEND/frontend_for_website/BACKEND_CHANGES_REQUIRED.md) dosyasına bakın.
+
+**Kritik Değişiklikler:**
+1. Product model: `original_price`, `featured`, `created_at` fields
+2. Category model: `slug`, `image` fields
+3. Serializers: `category_name`, `category_id`, `product_count`, `images[].url`
+4. Product filtering: `featured`, `category`, `price_range`, `in_stock`, `search`
+5. Response format standardization
 
 ---
 

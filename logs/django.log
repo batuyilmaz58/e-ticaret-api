@@ -50,3 +50,1385 @@ Traceback (most recent call last):
 django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
 INFO 2026-02-23 20:45:35,789 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
 INFO 2026-02-23 20:45:39,431 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 00:47:34,298 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-24 01:02:25,525 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:25,773 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:30,626 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:30,665 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:32,557 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:32,585 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:32,949 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:32,979 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:37,399 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2026-02-24 01:02:37,437 log Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+INFO 2026-02-24 01:03:10,798 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 01:03:11,672 autoreload Watching for file changes with StatReloader
+WARNING 2026-02-24 01:03:15,213 log Not Found: /products/
+WARNING 2026-02-24 01:03:15,249 log Not Found: /favicon.ico
+WARNING 2026-02-24 01:03:21,735 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-02-24 01:03:21,737 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-02-24 01:03:21,739 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-02-24 01:03:21,742 log Not Found: /static/rest_framework/css/default.css
+WARNING 2026-02-24 01:03:21,743 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-02-24 01:03:21,745 log Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-02-24 01:03:21,746 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-02-24 01:03:21,748 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-02-24 01:03:21,750 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-02-24 01:03:21,752 log Not Found: /static/rest_framework/js/default.js
+WARNING 2026-02-24 01:03:21,755 log Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-02-24 01:03:35,950 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-02-24 01:03:35,951 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-02-24 01:03:35,952 log Not Found: /static/rest_framework/css/default.css
+WARNING 2026-02-24 01:03:35,953 log Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-02-24 01:03:35,953 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-02-24 01:03:35,954 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-02-24 01:03:35,957 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-02-24 01:03:35,959 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-02-24 01:03:35,961 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-02-24 01:03:35,964 log Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-02-24 01:03:35,966 log Not Found: /static/rest_framework/js/default.js
+WARNING 2026-02-24 01:03:38,859 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-02-24 01:03:38,860 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-02-24 01:03:38,861 log Not Found: /static/rest_framework/css/default.css
+WARNING 2026-02-24 01:03:38,862 log Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-02-24 01:03:38,863 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-02-24 01:03:38,864 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-02-24 01:03:38,867 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-02-24 01:03:38,869 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-02-24 01:03:38,870 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-02-24 01:03:38,872 log Not Found: /static/rest_framework/js/default.js
+WARNING 2026-02-24 01:03:38,873 log Not Found: /static/rest_framework/js/load-ajax-form.js
+WARNING 2026-02-24 01:03:47,603 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2026-02-24 01:03:47,604 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2026-02-24 01:03:47,607 log Not Found: /static/rest_framework/css/default.css
+WARNING 2026-02-24 01:03:47,608 log Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+WARNING 2026-02-24 01:03:47,609 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2026-02-24 01:03:47,610 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2026-02-24 01:03:47,613 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2026-02-24 01:03:47,615 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2026-02-24 01:03:47,618 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2026-02-24 01:03:47,620 log Not Found: /static/rest_framework/js/default.js
+WARNING 2026-02-24 01:03:47,621 log Not Found: /static/rest_framework/js/load-ajax-form.js
+INFO 2026-02-24 02:32:30,197 autoreload Watching for file changes with StatReloader
+WARNING 2026-02-24 02:32:42,211 log Not Found: /favicon.ico
+WARNING 2026-02-24 02:33:06,307 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:33:06,347 log Bad Request: /api/products/
+WARNING 2026-02-24 02:33:09,351 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:33:09,353 log Bad Request: /api/products/
+WARNING 2026-02-24 02:33:10,106 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:33:10,107 log Bad Request: /api/products/
+WARNING 2026-02-24 02:33:10,551 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:33:10,553 log Bad Request: /api/products/
+WARNING 2026-02-24 02:33:11,051 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:33:11,053 log Bad Request: /api/products/
+ERROR 2026-02-24 02:33:57,135 exceptions [AddToCartView] Unhandled exception: FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\views.py", line 25, in post
+    add_product_to_cart(request.user, product_id, quantity)
+  File "C:\Users\batuh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py", line 20, in add_product_to_cart
+    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+ERROR 2026-02-24 02:33:57,215 log Internal Server Error: /api/cards/add
+ERROR 2026-02-24 02:33:58,864 exceptions [AddToCartView] Unhandled exception: FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\views.py", line 25, in post
+    add_product_to_cart(request.user, product_id, quantity)
+  File "C:\Users\batuh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py", line 20, in add_product_to_cart
+    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+ERROR 2026-02-24 02:33:58,866 log Internal Server Error: /api/cards/add
+ERROR 2026-02-24 02:33:59,301 exceptions [AddToCartView] Unhandled exception: FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\views.py", line 25, in post
+    add_product_to_cart(request.user, product_id, quantity)
+  File "C:\Users\batuh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py", line 20, in add_product_to_cart
+    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+ERROR 2026-02-24 02:33:59,303 log Internal Server Error: /api/cards/add
+ERROR 2026-02-24 02:33:59,777 exceptions [AddToCartView] Unhandled exception: FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\views.py", line 25, in post
+    add_product_to_cart(request.user, product_id, quantity)
+  File "C:\Users\batuh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py", line 20, in add_product_to_cart
+    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+ERROR 2026-02-24 02:33:59,779 log Internal Server Error: /api/cards/add
+ERROR 2026-02-24 02:33:59,972 exceptions [AddToCartView] Unhandled exception: FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\views.py", line 25, in post
+    add_product_to_cart(request.user, product_id, quantity)
+  File "C:\Users\batuh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py", line 20, in add_product_to_cart
+    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+ERROR 2026-02-24 02:33:59,974 log Internal Server Error: /api/cards/add
+ERROR 2026-02-24 02:34:00,156 exceptions [AddToCartView] Unhandled exception: FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\views.py", line 25, in post
+    add_product_to_cart(request.user, product_id, quantity)
+  File "C:\Users\batuh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py", line 20, in add_product_to_cart
+    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+ERROR 2026-02-24 02:34:00,159 log Internal Server Error: /api/cards/add
+ERROR 2026-02-24 02:34:00,314 exceptions [AddToCartView] Unhandled exception: FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\views.py", line 25, in post
+    add_product_to_cart(request.user, product_id, quantity)
+  File "C:\Users\batuh\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py", line 20, in add_product_to_cart
+    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'cart' into field. Choices are: card, card_id, id, product, product_id, quantity
+ERROR 2026-02-24 02:34:00,316 log Internal Server Error: /api/cards/add
+ERROR 2026-02-24 02:34:03,844 exceptions [OrderListView] Unhandled exception: FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\orders\views.py", line 72, in get_queryset
+    return Order.objects.filter(user = self.request.user).order_by('-created')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 2291, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+ERROR 2026-02-24 02:34:03,849 log Internal Server Error: /api/orders/
+ERROR 2026-02-24 02:34:17,917 exceptions [OrderListView] Unhandled exception: FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\orders\views.py", line 72, in get_queryset
+    return Order.objects.filter(user = self.request.user).order_by('-created')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 2291, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+ERROR 2026-02-24 02:34:17,919 log Internal Server Error: /api/orders/
+ERROR 2026-02-24 02:34:20,905 exceptions [OrderListView] Unhandled exception: FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\orders\views.py", line 72, in get_queryset
+    return Order.objects.filter(user = self.request.user).order_by('-created')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 2291, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+ERROR 2026-02-24 02:34:20,910 log Internal Server Error: /api/orders/
+ERROR 2026-02-24 02:34:23,296 exceptions [OrderListView] Unhandled exception: FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\orders\views.py", line 72, in get_queryset
+    return Order.objects.filter(user = self.request.user).order_by('-created')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 2291, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+ERROR 2026-02-24 02:34:23,298 log Internal Server Error: /api/orders/
+ERROR 2026-02-24 02:34:24,772 exceptions [OrderListView] Unhandled exception: FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\orders\views.py", line 72, in get_queryset
+    return Order.objects.filter(user = self.request.user).order_by('-created')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 2291, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1805, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created' into field. Choices are: billing_address, billing_address_id, coupon, coupon_id, created_at, delivery_address, delivery_address_id, id, order_items, status, total_price, updated_at, user, user_id
+ERROR 2026-02-24 02:34:24,778 log Internal Server Error: /api/orders/
+INFO 2026-02-24 02:45:54,267 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py changed, reloading.
+INFO 2026-02-24 02:45:55,092 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:46:01,153 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\orders\views.py changed, reloading.
+INFO 2026-02-24 02:46:01,992 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:46:29,147 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\products\filters.py changed, reloading.
+INFO 2026-02-24 02:46:30,056 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:49:13,639 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\frontend\views.py changed, reloading.
+INFO 2026-02-24 02:49:14,390 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:49:21,572 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\frontend\urls.py changed, reloading.
+INFO 2026-02-24 02:49:22,333 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:51:47,483 autoreload Watching for file changes with StatReloader
+WARNING 2026-02-24 02:52:10,690 log Not Found: /api/orders/14/
+WARNING 2026-02-24 02:52:12,752 log Not Found: /api/orders/14/
+WARNING 2026-02-24 02:52:13,188 log Not Found: /api/orders/14/
+WARNING 2026-02-24 02:52:23,461 log Not Found: /api/orders/10/
+WARNING 2026-02-24 02:52:29,279 log Not Found: /api/orders/14/
+WARNING 2026-02-24 02:52:54,300 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:52:54,302 log Bad Request: /api/products/
+WARNING 2026-02-24 02:52:56,133 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:52:56,134 log Bad Request: /api/products/
+WARNING 2026-02-24 02:52:56,715 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:52:56,716 log Bad Request: /api/products/
+WARNING 2026-02-24 02:52:57,343 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:52:57,346 log Bad Request: /api/products/
+WARNING 2026-02-24 02:52:57,686 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:52:57,687 log Bad Request: /api/products/
+WARNING 2026-02-24 02:53:00,098 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:53:00,100 log Bad Request: /api/products/
+WARNING 2026-02-24 02:53:00,467 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:53:00,468 log Bad Request: /api/products/
+WARNING 2026-02-24 02:53:01,024 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:53:01,026 log Bad Request: /api/products/
+WARNING 2026-02-24 02:53:01,522 exceptions [CatalogProductList] ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 71, in filter_queryset
+    raise utils.translate_validation(filterset.errors)
+rest_framework.exceptions.ValidationError: {'category': [ErrorDetail(string='Select a valid choice. That choice is not one of the available choices.', code='invalid_choice')]}
+WARNING 2026-02-24 02:53:01,524 log Bad Request: /api/products/
+WARNING 2026-02-24 02:53:26,459 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86304 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86304 seconds.
+WARNING 2026-02-24 02:53:26,460 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:53:29,156 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86302 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86302 seconds.
+WARNING 2026-02-24 02:53:29,157 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86302 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86302 seconds.
+WARNING 2026-02-24 02:53:29,158 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:53:29,158 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:53:29,167 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86302 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86302 seconds.
+WARNING 2026-02-24 02:53:29,168 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:53:30,545 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86300 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86300 seconds.
+WARNING 2026-02-24 02:53:30,546 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:53:31,084 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86300 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86300 seconds.
+WARNING 2026-02-24 02:53:31,086 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:53:31,090 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86300 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86300 seconds.
+WARNING 2026-02-24 02:53:31,091 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:53:31,098 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86300 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86300 seconds.
+WARNING 2026-02-24 02:53:31,099 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:53:33,301 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86297 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86297 seconds.
+WARNING 2026-02-24 02:53:33,302 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86297 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86297 seconds.
+WARNING 2026-02-24 02:53:33,303 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:53:33,303 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:53:33,312 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86297 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86297 seconds.
+WARNING 2026-02-24 02:53:33,313 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:53:33,852 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86297 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86297 seconds.
+WARNING 2026-02-24 02:53:33,854 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86297 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86297 seconds.
+WARNING 2026-02-24 02:53:33,855 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:53:33,855 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:53:33,863 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86297 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86297 seconds.
+WARNING 2026-02-24 02:53:33,864 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:53:37,152 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86294 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86294 seconds.
+WARNING 2026-02-24 02:53:37,154 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:53:41,598 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86289 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86289 seconds.
+WARNING 2026-02-24 02:53:41,599 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:53:41,603 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86289 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86289 seconds.
+WARNING 2026-02-24 02:53:41,604 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:53:41,611 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86289 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86289 seconds.
+WARNING 2026-02-24 02:53:41,612 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:53:42,652 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86288 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86288 seconds.
+WARNING 2026-02-24 02:53:42,655 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:54:13,316 exceptions [CartDetailView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86257 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86257 seconds.
+WARNING 2026-02-24 02:54:13,317 log Too Many Requests: /api/cards/
+WARNING 2026-02-24 02:54:40,298 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86230 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86230 seconds.
+WARNING 2026-02-24 02:54:40,299 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:54:40,305 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86230 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86230 seconds.
+WARNING 2026-02-24 02:54:40,306 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:54:40,312 exceptions [OrderListView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86230 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86230 seconds.
+WARNING 2026-02-24 02:54:40,313 log Too Many Requests: /api/orders/
+WARNING 2026-02-24 02:54:40,324 exceptions [AdminUserListView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86230 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86230 seconds.
+WARNING 2026-02-24 02:54:40,326 log Too Many Requests: /api/users/admin/users/
+WARNING 2026-02-24 02:54:41,734 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86229 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86229 seconds.
+WARNING 2026-02-24 02:54:41,736 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:54:41,746 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86229 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86229 seconds.
+WARNING 2026-02-24 02:54:41,747 log Too Many Requests: /api/products/
+WARNING 2026-02-24 02:54:42,520 exceptions [CatalogCategoryList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86228 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86228 seconds.
+WARNING 2026-02-24 02:54:42,521 log Too Many Requests: /api/categories/
+WARNING 2026-02-24 02:54:43,548 exceptions [OrderListView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86227 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86227 seconds.
+WARNING 2026-02-24 02:54:43,549 log Too Many Requests: /api/orders/
+WARNING 2026-02-24 02:54:44,209 exceptions [AdminUserListView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86227 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86227 seconds.
+WARNING 2026-02-24 02:54:44,211 log Too Many Requests: /api/users/admin/users/
+WARNING 2026-02-24 02:54:44,618 exceptions [AdminAddressListCreateView] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 86226 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 86226 seconds.
+WARNING 2026-02-24 02:54:44,619 log Too Many Requests: /api/addresses/admin
+INFO 2026-02-24 02:56:01,507 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\orders\urls.py changed, reloading.
+INFO 2026-02-24 02:56:02,301 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:56:17,843 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\products\filters.py changed, reloading.
+INFO 2026-02-24 02:56:18,563 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:56:30,891 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\cards\services.py changed, reloading.
+INFO 2026-02-24 02:56:31,627 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:57:32,641 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 02:57:33,367 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:57:37,233 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 02:57:38,116 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:57:39,778 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 02:57:40,474 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:57:42,107 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 02:57:42,847 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 02:57:44,508 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 02:57:45,245 autoreload Watching for file changes with StatReloader
+ERROR 2026-02-24 02:58:02,952 exceptions [CatalogProductList] Unhandled exception: FieldError: Unsupported lookup 'slug__exact' for ForeignKey or join on the field not permitted.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 72, in filter_queryset
+    return filterset.qs
+           ^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\filterset.py", line 250, in qs
+    qs = self.filter_queryset(qs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\filterset.py", line 233, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\filters.py", line 167, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1402, in build_lookup
+    lhs = self.try_transform(lhs, name, lookups)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1458, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'slug__exact' for ForeignKey or join on the field not permitted.
+ERROR 2026-02-24 02:58:02,995 log Internal Server Error: /api/products/
+ERROR 2026-02-24 02:58:03,458 exceptions [CatalogProductList] Unhandled exception: FieldError: Unsupported lookup 'slug__exact' for ForeignKey or join on the field not permitted.
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 72, in filter_queryset
+    return filterset.qs
+           ^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\filterset.py", line 250, in qs
+    qs = self.filter_queryset(qs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\filterset.py", line 233, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django_filters\filters.py", line 167, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1402, in build_lookup
+    lhs = self.try_transform(lhs, name, lookups)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1458, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'slug__exact' for ForeignKey or join on the field not permitted.
+ERROR 2026-02-24 02:58:03,460 log Internal Server Error: /api/products/
+WARNING 2026-02-24 02:58:41,920 exceptions [AdminOrderDetailsView] MethodNotAllowed: {'detail': ErrorDetail(string='Method "PATCH" not allowed.', code='method_not_allowed')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 173, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "PATCH" not allowed.
+WARNING 2026-02-24 02:58:41,921 log Method Not Allowed: /api/orders/admin/13/
+WARNING 2026-02-24 02:58:46,227 exceptions [AdminOrderDetailsView] MethodNotAllowed: {'detail': ErrorDetail(string='Method "PATCH" not allowed.', code='method_not_allowed')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 173, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "PATCH" not allowed.
+WARNING 2026-02-24 02:58:46,227 log Method Not Allowed: /api/orders/admin/13/
+INFO 2026-02-24 12:10:06,075 autoreload Watching for file changes with StatReloader
+WARNING 2026-02-24 12:10:11,383 log Not Found: /favicon.ico
+INFO 2026-02-24 12:31:55,154 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 12:33:43,776 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 12:36:07,852 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\products\filters.py changed, reloading.
+INFO 2026-02-24 12:36:08,457 autoreload Watching for file changes with StatReloader

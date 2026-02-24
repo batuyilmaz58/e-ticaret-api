@@ -9,7 +9,7 @@ def get_cart_or_create(user):
 
 def get_cart_item_or_404(cart_item_id, user):
     try:
-        return CardItem.objects.get(pk=cart_item_id, cart__user = user)
+        return CardItem.objects.get(pk=cart_item_id, card__user=user)
     except CardItem.DoesNotExist:
         raise NotFound({'error': 'Cart item not found.'})
 
@@ -17,7 +17,7 @@ def get_cart_item_or_404(cart_item_id, user):
 def add_product_to_cart(user, product_id, quantity):
     cart = get_cart_or_create(user)
     product = get_Product_or_404(product_id)
-    cart_item, created = CardItem.objects.get_or_create(cart = cart, product = product)
+    cart_item, created = CardItem.objects.get_or_create(card=cart, product=product)
 
     if created:
         check_product_stock(product, quantity)

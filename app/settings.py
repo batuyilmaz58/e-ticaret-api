@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-_anr8hw_#wm@3y%412ymwz*n#hw1+hl_whq4&(x*ekfj^$-wr*"
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['batuhanyilmaz1.pythonanywhere.com']
+ALLOWED_HOSTS = ['batuhanyilmaz1.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 # Application definition
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "frontend",
     "products",
     "categories",
     "comments",
@@ -86,11 +87,11 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         # 'anon': '100/day',
         # 'user': '1000/day'
-        'min_anon_request':'25/day',
-        'max_anon_request':'50/day',
+        'min_anon_request':'50/day',
+        'max_anon_request':'100/day',
         
-        'min_user_request':'50/day',
-        'max_user_request':'100/day',
+        'min_user_request':'100/day',
+        'max_user_request':'1000/day',
         
     },
 
@@ -155,7 +156,7 @@ ROOT_URLCONF = "app.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -217,6 +218,7 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_DIRS = [BASE_DIR / "static"]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
