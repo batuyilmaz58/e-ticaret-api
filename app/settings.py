@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "frontend",
     "products",
     "categories",
     "comments",
@@ -75,25 +74,25 @@ REST_FRAMEWORK = {
     # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     # 'PAGE_SIZE': 3
 
-    'DEFAULT_THROTTLE_CLASSES': [
-        # 'rest_framework.throttling.AnonRateThrottle',
-        # 'rest_framework.throttling.UserRateThrottle'
-        'app.throttles.MinUserRateThrottle',
-        'app.throttles.MaxUserRateThrottle',
-        'app.throttles.MinAnonRateThrottle',
-        'app.throttles.MaxAnonRateThrottle',
-    ],
+    # 'DEFAULT_THROTTLE_CLASSES': [
+    #     # 'rest_framework.throttling.AnonRateThrottle',
+    #     # 'rest_framework.throttling.UserRateThrottle'
+    #     'app.throttles.MinUserRateThrottle',
+    #     'app.throttles.MaxUserRateThrottle',
+    #     'app.throttles.MinAnonRateThrottle',
+    #     'app.throttles.MaxAnonRateThrottle',
+    # ],
 
-    'DEFAULT_THROTTLE_RATES': {
-        # 'anon': '100/day',
-        # 'user': '1000/day'
-        'min_anon_request':'50/day',
-        'max_anon_request':'100/day',
+    # 'DEFAULT_THROTTLE_RATES': {
+    #     # 'anon': '100/day',
+    #     # 'user': '1000/day'
+    #     'min_anon_request':'50/day',
+    #     'max_anon_request':'100/day',
         
-        'min_user_request':'100/day',
-        'max_user_request':'1000/day',
+    #     'min_user_request':'100/day',
+    #     'max_user_request':'1000/day',
         
-    },
+    # },
 
     'EXCEPTION_HANDLER' : 'core.exceptions.custom_exception_handler',
     
@@ -252,9 +251,9 @@ SPECTACULAR_SETTINGS = {
 Geliştirme aşamasinda tüm originlere izin verilir. 
 Üretim ortaminda bu ayar kapatilmali ve izin verilen originler belirtilmelidir.
 '''
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
 
-# CORS_ALLOWED_ORIGINS = [
-#     'http://127.0.0.1:5500'
-# ]
+CORS_ALLOWED_ORIGINS = [
+     'http://localhost:5173'
+ ]

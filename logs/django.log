@@ -1432,3 +1432,149 @@ INFO 2026-02-24 12:31:55,154 autoreload Watching for file changes with StatReloa
 INFO 2026-02-24 12:33:43,776 autoreload Watching for file changes with StatReloader
 INFO 2026-02-24 12:36:07,852 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\products\filters.py changed, reloading.
 INFO 2026-02-24 12:36:08,457 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:42:06,898 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:43:21,067 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:43:51,326 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 19:43:51,949 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:43:55,639 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 19:43:56,263 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:43:58,906 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 19:43:59,513 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:44:03,167 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 19:44:04,055 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:44:16,886 autoreload Watching for file changes with StatReloader
+INFO 2026-02-24 19:45:12,826 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 19:45:13,438 autoreload Watching for file changes with StatReloader
+WARNING 2026-02-24 20:04:11,321 exceptions [CatalogProductDetailView] MethodNotAllowed: {'detail': ErrorDetail(string='Method "DELETE" not allowed.', code='method_not_allowed')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 173, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "DELETE" not allowed.
+WARNING 2026-02-24 20:04:11,324 log Method Not Allowed: /api/products/6/
+WARNING 2026-02-24 20:07:15,510 log Not Found: /api/adressess/
+WARNING 2026-02-24 20:07:15,517 log Not Found: /api/adressess/
+WARNING 2026-02-24 20:07:37,129 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:37,130 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:37,134 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:37,136 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:37,717 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:37,718 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:37,722 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:37,723 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:38,129 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:38,130 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:38,134 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:38,135 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:38,672 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:38,673 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:38,675 exceptions [AddressListCreateView] NotAuthenticated: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+WARNING 2026-02-24 20:07:38,677 log Unauthorized: /api/addresses/
+WARNING 2026-02-24 20:07:49,555 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 85047 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 85047 seconds.
+WARNING 2026-02-24 20:07:49,556 log Too Many Requests: /api/products/
+WARNING 2026-02-24 20:07:49,559 exceptions [CatalogProductList] Throttled: {'detail': ErrorDetail(string='Request was throttled. Expected available in 85047 seconds.', code='throttled')}
+Traceback (most recent call last):
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 377, in check_throttles
+    self.throttled(request, duration)
+  File "C:\Users\batuh\OneDrive\Desktop\django-api\.venv\Lib\site-packages\rest_framework\views.py", line 187, in throttled
+    raise exceptions.Throttled(wait)
+rest_framework.exceptions.Throttled: Request was throttled. Expected available in 85047 seconds.
+WARNING 2026-02-24 20:07:49,560 log Too Many Requests: /api/products/
+INFO 2026-02-24 20:08:11,520 autoreload C:\Users\batuh\OneDrive\Desktop\django-api\app\settings.py changed, reloading.
+INFO 2026-02-24 20:08:12,252 autoreload Watching for file changes with StatReloader

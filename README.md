@@ -2,6 +2,8 @@
 
 Modern, ölçeklenebilir ve güvenli bir e-ticaret backend sistemi. Django REST Framework kullanılarak geliştirilmiştir.
 
+!['örnek_resim'](image.png)
+
 ## 📋 İçindekiler
 
 - [Özellikler](#-özellikler)
