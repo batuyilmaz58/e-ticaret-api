@@ -2,11 +2,6 @@
 
 > Modern, ölçeklenebilir ve güvenli bir e-ticaret backend sistemi — Django REST Framework ile geliştirilmiştir.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-5.2.3-092E20?style=flat-square&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-3.16.1-red?style=flat-square)
-![License](https://img.shields.io/badge/Lisans-MIT-green?style=flat-square)
-
 !['örnek_resim'](image.png)
 
 ---
